@@ -384,4 +384,34 @@ body {
 
 .hero {
   display: flex;
+  padding: 5% 0;
+  justify-content: space-between;
+}
+
+.hero-text h2 {
+  color: #f9faf8;
+  font-weight: 800;
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-text p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0;
+}
+img {
+  width: 500px;
+  height: 250px;
+}
+.hero-text a {
+  display: inline-block;
+  background-color: #29a8f1;
+  height: 10%;
+  width: 13%;
+  text-align: center;
+  border-radius: 5px;
+  color: #f9faf8;
+  margin: 1rem 0;
+  text-decoration: none;
 }
