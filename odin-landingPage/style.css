@@ -353,6 +353,7 @@ template {
 /* Start of my styles */
 
 body {
+  box-sizing: border-box;
 }
 
 .header {
@@ -406,12 +407,105 @@ img {
 }
 .hero-text a {
   display: inline-block;
-  background-color: #29a8f1;
-  height: 10%;
-  width: 13%;
+
+  margin: 1rem 0;
+  text-decoration: none;
+}
+section {
+  padding: 0 15%;
+}
+.signup {
+  background-color: #3882f6;
+  padding: 5px 20px;
   text-align: center;
   border-radius: 5px;
   color: #f9faf8;
-  margin: 1rem 0;
-  text-decoration: none;
+  border: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(4, 175px);
+}
+
+.info-card div {
+  height: 125px;
+  outline: solid 3px #3882f6;
+  border-radius: 5%;
+  margin: 0;
+}
+
+.info-card {
+  text-align: center;
+  margin: 1rem;
+}
+
+.info-card p {
+  margin: 0.5rem 0;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.blockquote-container {
+  padding: 0.5rem 25%;
+  margin: 6rem 0;
+  background-color: rgba(95, 95, 95, 0.4);
+}
+.blockquote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: center;
+}
+.blockquote-author {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.call {
+  padding: 0 10%;
+  margin: 15rem 0 4rem 0;
+}
+
+.call-container {
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+  padding: 0 15%;
+}
+
+.call-container button {
+  border: 1px solid #f9faf8;
+  border-radius: 5px;
+  background-color: #3882f6;
+  padding: 5px 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  color: #e5e7eb;
 }
